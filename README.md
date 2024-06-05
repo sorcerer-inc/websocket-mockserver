@@ -15,8 +15,30 @@ url:
 
 socket.io の使う例は `/docs/client-sample`に書いてある。
 
-https://socket.io/　公式ドキュメント参考してもいい。
+公式ドキュメント参考してもいい。 https://socket.io/
 
 ```tsx
 socket.emit("game start");
 ```
+
+## 実装完了のイベント
+
+### socket.on イベント
+
+- gameInfo
+- gameStatus
+- remainingUntilShuffle
+- showScreen
+- winningNo
+- winner
+- pointReceive
+- verticalHistory
+- betStatus
+- betMessage
+
+### socket.emit イベント
+
+- game start
+- gameInfo
+- betData
+- verticalHistory
